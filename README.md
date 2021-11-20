@@ -1,2 +1,2 @@
-# node-gorzilla-pub
+# node-pub
 Publicly available files
