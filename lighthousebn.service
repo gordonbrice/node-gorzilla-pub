@@ -8,6 +8,8 @@ Group=lighthouse
 Type=simple
 Restart=always
 RestartSec=5
-ExecStart=/usr/local/bin/lighthouse bn --network mainnet --datadir /var/lib/lighthouse --staking --eth1-endpoints http://127.0.0.1:8545
+#ExecStart=/usr/local/bin/lighthouse bn --network mainnet --datadir /var/lib/lighthouse --staking --eth1-endpoints http://127.0.0.1:8545
+ExecStart=/usr/local/bin/lighthouse bn --network mainnet --datadir /var/lib/lighthouse --eth1-endpoints http://127.0.0.1:8545,http://185.237.253.135:8545 #contabo-eth0
+
 [Install]
 WantedBy=multi-user.target
