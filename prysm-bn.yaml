@@ -2,6 +2,8 @@ datadir: "/var/lib/prysm"
 p2p-host-ip: "xxx.xxx.xxx.xxx"
 http-web3provider: http://localhost:8545
 fallback-web3provider:
+- http://185.237.253.135:8545 #contabo-eth0
+- http://75.119.131.59:8545 #contabo-eth0
 - https://mainnet.infura.io/v3/265619ae480f49c68f5815f86c30ddf1 #Infura
 - https://eth-mainnet.alchemyapi.io/v2/0YZ9H7wlpEFLOymBTgTRScutU06iGGYt #Alchemy
 - https://api.mycryptoapi.com/eth #MyCrypto
