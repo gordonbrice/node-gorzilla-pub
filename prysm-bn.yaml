@@ -1,5 +1,5 @@
 datadir: "/var/lib/prysm"
-p2p-host-ip: "75.119.131.59"
+p2p-host-ip: "xxx.xxx.xxx.xxx"
 http-web3provider: http://localhost:8545
 fallback-web3provider:
 - https://mainnet.infura.io/v3/265619ae480f49c68f5815f86c30ddf1 #Infura
