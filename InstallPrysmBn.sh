@@ -15,6 +15,7 @@ sudo -u prysm wget https://raw.githubusercontent.com/prysmaticlabs/prysm/master/
 sudo -u prysm chmod u+x /usr/bin/prysm.sh
 cd /etc/systemd/system
 sudo -u prysm wget https://github.com/gordonbrice/node-pub/raw/main/prysm-bn.service
+cd /var/lib/prysm
 sudo -u prysm wget https://github.com/gordonbrice/node-pub/raw/main/prysm-bn.yaml
 sed -i.bak '' /usr/lib/prysm/prysm-bn.yaml
 sed -i 's/p2p-host-ip: "xxx.xxx.xxx.xxx"/p2p-host-ip: '$host'/' /usr/lib/prysm/prysm-bn.yaml
