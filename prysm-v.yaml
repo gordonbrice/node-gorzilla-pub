@@ -1,0 +1,11 @@
+#wallet-dir: "/home/prysm-validator/.eth2validators"
+wallet-password-file: "/var/lib/prysm/.eth2validators/wallet-password.txt"
+graffiti: ""
+accept-terms-of-use: true
+#log-file: "/home/prysm-validator/logs"
+#web: true
+monitoring-host: "0.0.0.0"
+beacon-rpc-provider: "127.0.0.1:4000"
+
+#v2.0.1
+enable-get-block-optimizations: true
