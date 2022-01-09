@@ -8,6 +8,7 @@ Type=simple
 Restart=always
 RestartSec=5
 User=prysm
+Group=prysm
 ExecStart=/usr/bin/prysm.sh beacon-chain --config-file /var/lib/prysm/prysm-bn.yaml
 
 [Install]
