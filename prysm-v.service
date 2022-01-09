@@ -5,11 +5,11 @@ After=network-online.target
 
 [Service]
 Type=simple
-User=prysm-validator
-Group=prysm-validator
+User=prysm
+Group=prysm
 Restart=always
 RestartSec=5
-ExecStart=/home/prysm-validator/bin/prysm.sh validator --config-file /home/prysm-validator/prysm-validator.yaml
+ExecStart=/usr/bin/prysm.sh validator --config-file /var/lib/prysm/prysm-v.yaml
 
 [Install]
 WantedBy=multi-user.target
